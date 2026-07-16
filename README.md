@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/Gemini_Generated_Image_lhm2q0lhm2q0lhm2.png" width="100%">
+</p>
+
 # 📚 Book Management System (C++)
 
 A simple yet professional **Book Management System** built with **C++** that demonstrates **File Handling**, **Object-Oriented Programming**, and complete **CRUD operations** using text files.
