@@ -34,12 +34,32 @@ A simple yet professional **Book Management System** built with **C++** that dem
 
 ```text
 BookManagement/
-│
+
 ├── main.cpp
+│
 ├── Book.h
+│      └── struct Book
+│
 ├── Book.cpp
+│      ├── AddBook()
+│      └── ViewBook()
+│
 ├── FileManager.h
+│      ├── SaveBook()
+│      ├── LoadBooks()
+│      ├── SearchBookById()
+│      ├── SearchBookByTitle()
+│      ├── UpdateBook()
+│      └── DeleteBook()
+│
 ├── FileManager.cpp
+│      ├── SaveBook()
+│      ├── LoadBooks()
+│      ├── SearchBookById()
+│      ├── SearchBookByTitle()
+│      ├── UpdateBook()
+│      └── DeleteBook()
+│
 └── books.txt
 ```
 
