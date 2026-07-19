@@ -1,14 +1,7 @@
 #include <iostream>
-
+#include "Book.h"
 using namespace std;
 
-struct StBook{
-    int Id ;
-    string Title;
-    string Author;
-    int Year;
-    int Price;
-};
 
 StBook AddBook()
 {
@@ -17,7 +10,7 @@ StBook AddBook()
     cout << "Enter Book ID: ";
     cin >> Info.Id;
 
-    cin.ignore(); 
+    cin.ignore();
 
     cout << "Enter Title: ";
     getline(cin, Info.Title);
@@ -34,25 +27,11 @@ StBook AddBook()
     return Info;
 }
 
-void ViewBooks(StBook Info)
+void ViewBook(const StBook& Info)
 {
-    cout << Info.Id << endl;
-    cout << Info.Title << endl;
-    cout << Info.Author << endl;
-    cout << Info.Year<< endl;
-    cout << Info.Price << endl;
-}
-
-void DeleteBook()
-{
-    
-}
-void UpdateBook()
-{
-
-}
-
-void SearchBook()
-{
-
+    cout << "ID: " << Info.Id << endl;
+    cout << "Title: " << Info.Title << endl;
+    cout << "Author: " << Info.Author << endl;
+    cout << "Year: " << Info.Year << endl;
+    cout << "Price: " << Info.Price << endl;
 }
